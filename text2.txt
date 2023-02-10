@@ -1,2 +1,0 @@
-line1: text
-line2: 22
