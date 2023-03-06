@@ -50,6 +50,40 @@ deactivate env_name
 
 conda list
 
+# 离线安装Pytorch
+
+> v1.12.1
+
+1. CUDA 10.2
+
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 -c pytorch
+
+2. CUDA 11.3
+
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+
+3. CUDA 11.6
+
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
+
+> v1.12.0
+
+1. CUDA 10.2
+
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=10.2 -c pytorch
+
+2. CUDA 11.3
+
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
+
+3. CUDA 11.6
+
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.6 -c pytorch -c conda-forge
+
+[安装包](https://download.pytorch.org/whl/torch_stable.html)
+[版本对应关系](https://pytorch.org/get-started/previous-versions/)
+[参考教程](https://blog.csdn.net/weixin_47142735/article/details/113684365)
+
 ## Pycharm 使用 Anaconda 环境
 
 File -> New Project
